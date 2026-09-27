@@ -1,0 +1,36 @@
+{
+  "zones": {
+    "zone_a": {
+      "name": "Main Gate Bridge",
+      "venue_type": "narrow_bridge",
+      "area_sqm": 150,
+      "safe_density": 2.0,
+      "critical_density": 4.0,
+      "exits": ["North Barricade Gap"]
+    },
+    "zone_b": {
+      "name": "Temple Courtyard",
+      "venue_type": "open_ground",
+      "area_sqm": 800,
+      "safe_density": 3.0,
+      "critical_density": 6.0,
+      "exits": ["East Gate", "West Gate", "South Gate"]
+    },
+    "zone_c": {
+      "name": "Stage Front",
+      "venue_type": "open_ground",
+      "area_sqm": 400,
+      "safe_density": 3.5,
+      "critical_density": 6.5,
+      "exits": ["Backstage Service Exit"]
+    },
+    "zone_d": {
+      "name": "Stairway to Viewing Gallery",
+      "venue_type": "stairway",
+      "area_sqm": 60,
+      "safe_density": 1.5,
+      "critical_density": 3.0,
+      "exits": ["Ground Level Landing"]
+    }
+  }
+}
